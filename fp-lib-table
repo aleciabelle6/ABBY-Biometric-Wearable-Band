@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pulse")(type "KiCad")(uri "${KIPRJMOD}/BH1792GLC_E2/pulsebloodoxfootprint.pretty")(options "")(descr ""))
+  (lib (name "open-Smartwatch")(type "KiCad")(uri "${KIPRJMOD}/lib/open-Smartwatch.pretty")(options "")(descr ""))
+  (lib (name "voltregulator3318")(type "KiCad")(uri "C:/Users/aleci/Downloads/LP5910_1_1BYKAR (1)/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "3in1")(type "KiCad")(uri "${KIPRJMOD}/ADPD4101BCBZR7/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "switches")(type "KiCad")(uri "C:/Users/aleci/Downloads/EG1215AA/switch.pretty")(options "")(descr ""))
+  (lib (name "buttons")(type "KiCad")(uri "C:/Users/aleci/Downloads/436333033816 (1)/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TLA2022")(type "KiCad")(uri "${KIPRJMOD}/ul_TLA2022IRUGR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LM324D")(type "KiCad")(uri "${KIPRJMOD}/ul_LM324D/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "SJ3524")(type "KiCad")(uri "${KIPRJMOD}/SJ_3524_SMT_TR/SJ-3524-SMT.pretty")(options "")(descr ""))
+)

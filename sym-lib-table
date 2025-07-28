@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "open-Smartwatch")(type "Legacy")(uri "${KIPRJMOD}/lib/osw.lib")(options "")(descr ""))
+  (lib (name "3in1")(type "KiCad")(uri "${KIPRJMOD}/ADPD4101BCBZR7/KiCADv6/2024-04-19_02-43-30.kicad_sym")(options "")(descr ""))
+  (lib (name "voltregulator3318")(type "KiCad")(uri "C:/Users/aleci/Downloads/LP5910_1_1BYKAR (1)/KiCADv6/2024-04-21_14-09-32.kicad_sym")(options "")(descr ""))
+  (lib (name "pulse")(type "KiCad")(uri "${KIPRJMOD}/BH1792GLC_E2/BH1792GLC-E2.kicad_sym")(options "")(descr ""))
+  (lib (name "switches")(type "KiCad")(uri "C:/Users/aleci/Downloads/EG1215AA/EG1215AA.kicad_sym")(options "")(descr ""))
+  (lib (name "LM324")(type "KiCad")(uri "${KIPRJMOD}/ul_LM324D/KiCADv6/2025-07-28_02-41-53.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ3524")(type "KiCad")(uri "${KIPRJMOD}/SJ_3524_SMT_TR/SJ-3524-SMT.kicad_sym")(options "")(descr ""))
+  (lib (name "TLA2022")(type "KiCad")(uri "${KIPRJMOD}/ul_TLA2022IRUGR/KiCADv6/2025-07-28_02-19-07.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,45 @@
+Tool:,Eeschema 7.0.9,,,,,,,
+Generator:,C:\Users\aleci\OneDrive\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,69,,,,,,,
+,,,,,,,,
+Collated Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MPN,Manufacturer
+1,2,"C1, C2",4.7uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,General,General,General
+2,12,"C3, C4, C8, C9, C13, C14, C15, C18, C19, C22, C25, C29",0.1u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,General,General,General
+3,2,"C5, C6",100u,Device:C_Small,Capacitor_SMD:C_1206_3216Metric,General,General,General
+4,4,"C7, C12, C21, C23",0.1u,Device:C,Capacitor_SMD:C_0603_1608Metric,General,General,General
+5,2,"C16, C17",4.7u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,General,General,General
+6,1,D1,LED_Green,Device:LED_Small,LED_SMD:LED_0805_2012Metric,General,General,General
+7,3,"D2, D3, D4",LED,Device:LED,LED_SMD:LED_1206_3216Metric,General,General,General
+8,1,J1,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,General,General,General
+9,1,J2,SJ-3524-SMT,SJ3524:SJ-3524-SMT,SJ3524:CUI_SJ-3524-SMT,https://www.sameskydevices.com/product/resource/sj-352x-smt.pdf,SJ-352X-SMT,same sky
+10,1,Q1,2N7002,Transistor_FET:2N7002,Package_TO_SOT_SMD:SOT-23,https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf,,onsemi
+11,1,R1,22,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+12,1,R2,330,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+13,2,"R4, R13",470R,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+14,2,"R6, R7",1k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+15,5,"R8, R10, R11, R17, R21",10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+16,1,R14,510R,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+17,1,R15,5k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+18,1,R16,200k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+19,1,R18,100k,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+20,1,R19,220k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+21,2,"R20, R34",500k,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+22,1,R22,1M,Device:R_Small,Resistor_SMD:R_0603_1608Metric,General,General,General
+23,3,"R23, R24, R28",1k,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+24,1,R25,820,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+25,1,R26,205k,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+26,1,R27,10k,Device:R,Resistor_SMD:R_0603_1608Metric,General,General,General
+27,3,"S1, S2, S3",EG1215AA,switches:EG1215AA,buttons:CONN3_3033816_WRE,https://configured-product-images.s3.amazonaws.com/Datasheets/EG1215.pdf,EG1215AA,E-Switch
+28,1,U1,BH1792GLC-E2,pulse:BH1792GLC-E2,pulse:XDCR_BH1792GLC-E2,https://fscdn.rohm.com/en/products/databook/datasheet/ic/sensor/pulse_wave/bh1792glc-e.pdf,BH1792GLC,Rohm Semiconductor
+29,1,U2,BMA400,open-Smartwatch:BMA400,open-Smartwatch:narrow0.19mmV2BMA400,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMA400-DS000.pdf,BMA400,Bosch Sensortec
+30,1,U4,GC9A01_IPS_display,open-Smartwatch:GC9A01_IPS_display_SPI,open-Smartwatch:GC9A01_IPS_display,https://www.buydisplay.com/download/ic/GC9A01A.pdf?srsltid=AfmBOoqCWYLPO_i6rB_3lNNo2XW0GKXCpVqpeponLOu72vcSjGRXypCI,GC9A01A,GalaxyCore
+31,1,U5,USB-OTG,open-Smartwatch:USB-OTG,open-Smartwatch:USBmicro-B,https://www.ti.com/lit/ml/sprp605/sprp605.pdf,General,General
+32,1,U6,CH340E,open-Smartwatch:CH340E,open-Smartwatch:MSOP-10_3x3mm_P0.5mm,https://www.mpja.com/download/35227cpdata.pdf,,
+33,1,U7,ttgo-32-micro,open-Smartwatch:ttgo-32-micro,open-Smartwatch:ttgo-32-micro,https://github.com/LilyGO/TTGO-Micro32-V2.0/blob/master/Datasheet/micro32%202020.3.4(1).pdf,TTGO Micro?32 V2.0,LILYGO
+34,1,U9,TPS2115A,open-Smartwatch:TPS2115A_default,open-Smartwatch:TSSOP-8_4.4x3mm_P0.65mm,https://www.ti.com/lit/ds/symlink/tps2114a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599026024238,TPS2115APWR,Texas Instruments
+35,2,"U10, U13",XC6209,open-Smartwatch:XC6209,Package_TO_SOT_SMD:SOT-23-5,https://product.torexsemi.com/system/files/series/xc6209.pdf,XC6209,Torex Semiconductors Ltd.
+36,1,U11,MCP73831T-2ACI_OT,open-Smartwatch:MCP73831T-2ACI_OT,open-Smartwatch:SOT-23-5,https://www.digikey.com/en/products/detail/microchip-technology/MCP73831T-2ACI-OT/964301?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLligVBpoXsyQxiYObXcpC86am&gclid=CjwKCAjwv5zEBhBwEiwAOg2YKP0amFiCbqvBtfdnAP4p0df1BtA0XXqA98Bq8qLWbWagS7HL8t25JBoC274QAvD_BwE,MCP73831T-2ACI/OT,Microchip Technology
+37,1,U15,TLA2022IRUGR,TLA2022:TLA2022IRUGR,TLA2022:RUG10_TEX,https://www.ti.com/lit/gpn/tla2022,TLA2022IRUGR,Texas Instruments
+38,1,U16,LM324D,LM324:LM324D,LM324D:D14,https://www.ti.com/lit/gpn/lm324,LM324D,Texas Instruments
