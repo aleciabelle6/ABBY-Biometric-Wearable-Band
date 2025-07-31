@@ -59,9 +59,7 @@
         "solder_mask_bridge|74574500|89975000|6023820a-0ccd-437c-b132-9293c96fae55|e5368440-0d20-4db4-9094-41001b62f64f",
         "solder_mask_bridge|77825500|89975000|1961a1dd-17f2-4351-83e0-c781b62b13ca|9ec6bdb1-7865-4275-9589-bbbe1f7e079a",
         "solder_mask_bridge|82249501|89980000|78de7ea0-0726-4850-a78b-08ca87333567|066c7baf-bc91-4577-9204-55e84c11d2ab",
-        "solder_mask_bridge|85500501|89980000|2b4c491c-07c8-4f87-a747-a9b2eb5ea608|6ead0669-8201-4ba9-b647-a5bb1d8a9415",
-        "solder_mask_bridge|89964499|90005000|012e498a-902d-4a1f-92ab-0618c726f485|b13ad70c-98f5-4530-a8ca-d7a9515cc5da",
-        "solder_mask_bridge|93215499|90005000|24db347a-deab-41e8-9773-4b0fbe88d5a1|8b4cc5cd-56f1-4a8d-8bb6-b59cce227571"
+        "solder_mask_bridge|85500501|89980000|2b4c491c-07c8-4f87-a747-a9b2eb5ea608|6ead0669-8201-4ba9-b647-a5bb1d8a9415"
       ],
       "meta": {
         "filename": "board_design_settings.json",
