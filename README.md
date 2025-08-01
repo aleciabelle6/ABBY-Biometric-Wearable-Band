@@ -28,7 +28,11 @@ I changed the circular Open-Smartwatch-Light into a rectangular board to have en
 
 ## Circuit Component Overview
 
-This section highlights the different components' functions in the circuit. 
+This section highlights the different components' functions in the circuit as visually depicted in the image below.
+
+<p align="center">
+  <img src="images/abbySchematic.png" alt="Circuit Schematic" width="900"/>
+</p>
 
 The TTGO T-Micro32 V2.0 (ESP32-based Microcontroller) was used due to its very compact size, coming in at 45% smaller than standard ESP32. It has full GPIO support, Wi-Fi and Bluetooth features, and advanced power-saving features including clock gating, deep sleep, and dynamic power delegation. This microcontroller controls all of the devices, primarily using I2C to communicate with the different sensors as well as the ADC converter.
 
@@ -37,6 +41,27 @@ As far as sensing, the BH1792GLC-E2 ECG/PPG Heart Rate and Oximeter Sensor is an
 The GC9A01 IPS Display: 1.28” circular IPS LCD with SPI interface, parallel RGB support, and adjustable brightness via 2N7002 transistor switch, which happenss by adjusting current through the LEDK pin on the GC9A01 screen, which in turn adjusts the backllight brightness of the display. This display screen offers wide viewing angles and vibrant display quality. There are also 3 SPST Buttons used for power enable (EN pin control) and general-purpose user inputs (e.g. calibrate, transmit).
 
 The power delegation of the board is quite intuitive. The board is powered by a 3.7V LiPo battery with shorting protection; monitored via voltage divider and B_MON pin for on-screen battery status display. The MCP73831 LiPo Charging Management Controller is a constant-current/voltage charger with thermal regulation, charge termination, and USB-powered battery input for safe, efficient battery management. The TPS2115A Power Multiplexer is a smart autoswitching between USB and battery power sources based on availability and voltage conditions. It acts very similiar to a rely in that it relies on the battery level of the battery to determine which input to transfer to the output and to the next stage of the power management system. The PCB also contains 2 XC6209 LDO Voltage regulators that convert the output of the multiplexer to a consistent 3.3V output regardless of the input level, allowing for consistent operation of sensor powering and the main logic throughout the circuit. The micro-USB port has two functions as it takes in a charging cable to charge the onboard Li-Po battery using a regulated charging circuit, and this port also provides a data interface for uploading firmware to the microcontroller. This enables both power management and programming through a single, convenient connection. With this, the CH340E chip is a USB to Serial Converter converts the inputs of the micro-USB to UART to connect with the microcontroller to upload firmware. 
+
+---
+
+## PCB Circuit Layout Images
+
+Below is the 3D circuit layout of the board followed by the front and back viewport as well as a 3D isometric viewport. As seen from the images below, the front of the board hosts the sensors, processors, buttons, external wire inputs, and passive components that sit on the side of the wrist in order to allow for the heart rate/pulse sensor to be able to better interface with the wrist. The back of the PCB contains the interfaces for the screen display and the external 3.7 LiPo battery, which is hosted below the screen but above the PCB.
+
+<p align="center">
+  <img src="images/abby3DLayout.png" alt="PCB Front Viewport" width="700"/>
+</p>
+
+<p align="center">
+  <img src="images/abbyFrontView.png" alt="PCB Front Viewport" width="330"/>
+  <img src="images/abbyBackView.png" alt="PCB Back Viewport" width="330"/>
+</p>
+
+<p align="center">
+  <img src="images/abbyIsometricView.png" alt="PCB Front Viewport" width="700"/>
+</p>
+
+---
 
 ## Repository Contents
 
@@ -59,6 +84,6 @@ The power delegation of the board is quite intuitive. The board is powered by a 
 This project is made available for academic, non-commercial use. Please contact me if you'd like to use any part of the content or code beyond that scope.
 
 ---
-
+*Author: Alecia Barbieri ([LinkedIn](https://www.linkedin.com/in/aleciabarbieri))*  
 *Project Advisor: Dr. David Wentzlaff*  
 *Department of Electrical and Computer Engineering, Princeton University*
